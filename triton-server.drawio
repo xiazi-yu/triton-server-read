@@ -4,11 +4,14 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="fB2k_9zROjcW_b2BIm2G-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="90" y="110" width="120" height="60" as="geometry" />
+        <mxCell id="fB2k_9zROjcW_b2BIm2G-2" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: #4ec9b0;&quot;&gt;triton&lt;/span&gt;::&lt;span style=&quot;color: #4ec9b0;&quot;&gt;server&lt;/span&gt;::TritonParser tp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="110" width="275" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fB2k_9zROjcW_b2BIm2G-3" value="启动初始化" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="120" y="70" width="70" height="30" as="geometry" />
+          <mxGeometry x="230" y="70" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fB2k_9zROjcW_b2BIm2G-4" value="解析输入参数" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="125" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
