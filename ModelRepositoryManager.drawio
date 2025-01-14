@@ -184,13 +184,13 @@
           <mxGeometry x="2100" y="2150" width="410" height="70" as="geometry" />
         </mxCell>
         <mxCell id="RpQ-3ubnt-UxJicJJvZT-68" value="backend-api" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="2310" y="2390" width="410" height="70" as="geometry" />
+          <mxGeometry x="2100" y="2390" width="410" height="70" as="geometry" />
         </mxCell>
         <mxCell id="RpQ-3ubnt-UxJicJJvZT-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="RpQ-3ubnt-UxJicJJvZT-70" target="RpQ-3ubnt-UxJicJJvZT-68" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RpQ-3ubnt-UxJicJJvZT-70" value="TritonBackend::LoadBackendLibrary" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="2200" y="2270" width="410" height="70" as="geometry" />
+          <mxGeometry x="2100" y="2268" width="410" height="70" as="geometry" />
         </mxCell>
         <mxCell id="RpQ-3ubnt-UxJicJJvZT-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="RpQ-3ubnt-UxJicJJvZT-74" target="RpQ-3ubnt-UxJicJJvZT-76" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -208,22 +208,28 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RpQ-3ubnt-UxJicJJvZT-78" value="ConstructAndInitializeInstance" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
-          <mxGeometry x="2170" y="2740" width="410" height="70" as="geometry" />
+          <mxGeometry x="2100" y="2740" width="410" height="70" as="geometry" />
         </mxCell>
         <mxCell id="EitAHyJn2PNV5uwUmFeK-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RpQ-3ubnt-UxJicJJvZT-80" target="EitAHyJn2PNV5uwUmFeK-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RpQ-3ubnt-UxJicJJvZT-80" value="&lt;div&gt;if（model-&amp;gt;Backend()-&amp;gt;ModelInstanceInitFn() != nullptr）&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;model-&amp;gt;Backend()-&amp;gt;ModelInstanceInitFn()(triton_instance)&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="2240" y="2870" width="410" height="70" as="geometry" />
+          <mxGeometry x="2100" y="2870" width="410" height="70" as="geometry" />
         </mxCell>
         <mxCell id="EitAHyJn2PNV5uwUmFeK-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EitAHyJn2PNV5uwUmFeK-1" target="EitAHyJn2PNV5uwUmFeK-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EitAHyJn2PNV5uwUmFeK-1" value="SetBackendThread" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="2310" y="2980" width="410" height="70" as="geometry" />
+          <mxGeometry x="2100" y="2980" width="410" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="EitAHyJn2PNV5uwUmFeK-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EitAHyJn2PNV5uwUmFeK-3" target="EitAHyJn2PNV5uwUmFeK-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EitAHyJn2PNV5uwUmFeK-3" value="CreateBackendThread" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="2740" y="2980" width="410" height="70" as="geometry" />
+          <mxGeometry x="2100" y="3100" width="410" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="EitAHyJn2PNV5uwUmFeK-5" value="BackendThread" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="2100" y="3220" width="410" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
