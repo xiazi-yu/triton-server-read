@@ -1,217 +1,223 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.5">
   <diagram name="第 1 页" id="f1nWCCuWI_6rAyLzlvaS">
-    <mxGraphModel dx="1860" dy="858" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1674" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="RpQ-3ubnt-UxJicJJvZT-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RpQ-3ubnt-UxJicJJvZT-1" target="RpQ-3ubnt-UxJicJJvZT-2">
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="RpQ-3ubnt-UxJicJJvZT-1" target="RpQ-3ubnt-UxJicJJvZT-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RpQ-3ubnt-UxJicJJvZT-1" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;span style=&quot;color: var(--md-editor-text-color-active)&quot; class=&quot;ne-text&quot;&gt;ModelRepositoryManager&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-1" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;span style=&quot;color: var(--md-editor-text-color-active)&quot; class=&quot;ne-text&quot;&gt;ModelRepositoryManager&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="80" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="RpQ-3ubnt-UxJicJJvZT-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RpQ-3ubnt-UxJicJJvZT-2" target="RpQ-3ubnt-UxJicJJvZT-4">
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="RpQ-3ubnt-UxJicJJvZT-2" target="RpQ-3ubnt-UxJicJJvZT-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RpQ-3ubnt-UxJicJJvZT-2" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;span style=&quot;color: var(--md-editor-text-color-active)&quot; class=&quot;ne-text&quot;&gt;Create&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-2" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;span style=&quot;color: var(--md-editor-text-color-active)&quot; class=&quot;ne-text&quot;&gt;Create&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="250" y="80" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="RpQ-3ubnt-UxJicJJvZT-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RpQ-3ubnt-UxJicJJvZT-4" target="RpQ-3ubnt-UxJicJJvZT-6">
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="RpQ-3ubnt-UxJicJJvZT-4" target="RpQ-3ubnt-UxJicJJvZT-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RpQ-3ubnt-UxJicJJvZT-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RpQ-3ubnt-UxJicJJvZT-4" target="RpQ-3ubnt-UxJicJJvZT-10">
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="RpQ-3ubnt-UxJicJJvZT-4" target="RpQ-3ubnt-UxJicJJvZT-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RpQ-3ubnt-UxJicJJvZT-4" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;span style=&quot;color: var(--md-editor-text-color-active)&quot; class=&quot;ne-text&quot;&gt;ModelLifeCycle&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-4" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;span style=&quot;color: var(--md-editor-text-color-active)&quot; class=&quot;ne-text&quot;&gt;ModelLifeCycle&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="450" y="80" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="RpQ-3ubnt-UxJicJJvZT-6" value="&lt;div class=&quot;lake-content&quot;&gt;Create&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-6" value="&lt;div class=&quot;lake-content&quot;&gt;Create&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="650" y="80" width="170" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="RpQ-3ubnt-UxJicJJvZT-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RpQ-3ubnt-UxJicJJvZT-9" target="RpQ-3ubnt-UxJicJJvZT-14">
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="RpQ-3ubnt-UxJicJJvZT-9" target="RpQ-3ubnt-UxJicJJvZT-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RpQ-3ubnt-UxJicJJvZT-9" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;div class=&quot;lake-content&quot;&gt;&lt;span class=&quot;ne-text&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ModelRepositoryManager::&lt;/span&gt;PollAndUpdateInternal&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-9" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;div class=&quot;lake-content&quot;&gt;&lt;span class=&quot;ne-text&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ModelRepositoryManager::&lt;/span&gt;PollAndUpdateInternal&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="370" y="360" width="330" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="RpQ-3ubnt-UxJicJJvZT-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RpQ-3ubnt-UxJicJJvZT-10" target="RpQ-3ubnt-UxJicJJvZT-9">
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="RpQ-3ubnt-UxJicJJvZT-10" target="RpQ-3ubnt-UxJicJJvZT-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RpQ-3ubnt-UxJicJJvZT-10" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;div class=&quot;lake-content&quot;&gt;// Not setting the smart pointer directly to simplify clean up&lt;/div&gt;&lt;div class=&quot;lake-content&quot;&gt;std::unique_ptr&amp;lt;ModelRepositoryManager&amp;gt; local_manager(&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;new ModelRepositoryManager(&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;repository_paths, !strict_model_config, model_config_name,&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;lake-content&quot;&gt;polling_enabled, model_control_enabled,&lt;/div&gt;&lt;div class=&quot;lake-content&quot;&gt;life_cycle_options.min_compute_capability, enable_model_namespacing,&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;std::move(life_cycle)));&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;lake-content&quot;&gt;*model_repository_manager = std::move(local_manager);&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-10" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;div class=&quot;lake-content&quot;&gt;// Not setting the smart pointer directly to simplify clean up&lt;/div&gt;&lt;div class=&quot;lake-content&quot;&gt;std::unique_ptr&amp;lt;ModelRepositoryManager&amp;gt; local_manager(&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;new ModelRepositoryManager(&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;repository_paths, !strict_model_config, model_config_name,&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;lake-content&quot;&gt;polling_enabled, model_control_enabled,&lt;/div&gt;&lt;div class=&quot;lake-content&quot;&gt;life_cycle_options.min_compute_capability, enable_model_namespacing,&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;std::move(life_cycle)));&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;lake-content&quot;&gt;*model_repository_manager = std::move(local_manager);&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="370" y="170" width="330" height="140" as="geometry" />
         </mxCell>
-        <mxCell id="RpQ-3ubnt-UxJicJJvZT-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RpQ-3ubnt-UxJicJJvZT-14" target="RpQ-3ubnt-UxJicJJvZT-16">
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="RpQ-3ubnt-UxJicJJvZT-14" target="RpQ-3ubnt-UxJicJJvZT-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RpQ-3ubnt-UxJicJJvZT-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RpQ-3ubnt-UxJicJJvZT-14" target="RpQ-3ubnt-UxJicJJvZT-18">
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="RpQ-3ubnt-UxJicJJvZT-14" target="RpQ-3ubnt-UxJicJJvZT-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RpQ-3ubnt-UxJicJJvZT-14" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;div class=&quot;lake-content&quot;&gt;&lt;span class=&quot;ne-text&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ModelRepositoryManager::&lt;/span&gt;Poll&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-14" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;div class=&quot;lake-content&quot;&gt;&lt;span class=&quot;ne-text&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ModelRepositoryManager::&lt;/span&gt;Poll&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="740" y="360" width="330" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="RpQ-3ubnt-UxJicJJvZT-16" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;div class=&quot;lake-content&quot;&gt;&lt;span class=&quot;ne-text&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ModelRepositoryManager::&lt;/span&gt;InitializeModelInfo&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-16" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;div class=&quot;lake-content&quot;&gt;&lt;span class=&quot;ne-text&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ModelRepositoryManager::&lt;/span&gt;InitializeModelInfo&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1160" y="360" width="410" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="RpQ-3ubnt-UxJicJJvZT-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RpQ-3ubnt-UxJicJJvZT-18" target="RpQ-3ubnt-UxJicJJvZT-20">
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="RpQ-3ubnt-UxJicJJvZT-18" target="RpQ-3ubnt-UxJicJJvZT-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RpQ-3ubnt-UxJicJJvZT-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RpQ-3ubnt-UxJicJJvZT-18" target="RpQ-3ubnt-UxJicJJvZT-22">
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="RpQ-3ubnt-UxJicJJvZT-18" target="RpQ-3ubnt-UxJicJJvZT-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RpQ-3ubnt-UxJicJJvZT-18" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;div class=&quot;lake-content&quot;&gt;&lt;span class=&quot;ne-text&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ModelRepositoryManager::&lt;/span&gt;DependencyGraph&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;lake-content&quot;&gt;&lt;span class=&quot;ne-text&quot;&gt;dependency_graph_.UpdateGraph(infos_, added, deleted, modified)&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-18" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;div class=&quot;lake-content&quot;&gt;&lt;span class=&quot;ne-text&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ModelRepositoryManager::&lt;/span&gt;DependencyGraph&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;lake-content&quot;&gt;&lt;span class=&quot;ne-text&quot;&gt;dependency_graph_.UpdateGraph(infos_, added, deleted, modified)&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="700" y="470" width="410" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="RpQ-3ubnt-UxJicJJvZT-20" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;div class=&quot;lake-content&quot;&gt;UpdateGraph&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-20" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;div class=&quot;lake-content&quot;&gt;UpdateGraph&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1160" y="470" width="410" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="RpQ-3ubnt-UxJicJJvZT-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RpQ-3ubnt-UxJicJJvZT-22" target="RpQ-3ubnt-UxJicJJvZT-24">
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="RpQ-3ubnt-UxJicJJvZT-22" target="RpQ-3ubnt-UxJicJJvZT-24" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RpQ-3ubnt-UxJicJJvZT-22" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;div class=&quot;lake-content&quot;&gt;AsyncUnload&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-22" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;div class=&quot;lake-content&quot;&gt;AsyncUnload&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="700" y="600" width="410" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="RpQ-3ubnt-UxJicJJvZT-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RpQ-3ubnt-UxJicJJvZT-24" target="RpQ-3ubnt-UxJicJJvZT-26">
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="RpQ-3ubnt-UxJicJJvZT-24" target="RpQ-3ubnt-UxJicJJvZT-26" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RpQ-3ubnt-UxJicJJvZT-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RpQ-3ubnt-UxJicJJvZT-24" target="RpQ-3ubnt-UxJicJJvZT-28">
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="RpQ-3ubnt-UxJicJJvZT-24" target="RpQ-3ubnt-UxJicJJvZT-28" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RpQ-3ubnt-UxJicJJvZT-24" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;div class=&quot;lake-content&quot;&gt;LoadModelByDependency&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-24" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;div class=&quot;lake-content&quot;&gt;LoadModelByDependency&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="700" y="740" width="410" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="RpQ-3ubnt-UxJicJJvZT-26" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;div class=&quot;lake-content&quot;&gt;ModelsToLoadUnload&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-26" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;div class=&quot;lake-content&quot;&gt;ModelsToLoadUnload&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1160" y="740" width="410" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="RpQ-3ubnt-UxJicJJvZT-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RpQ-3ubnt-UxJicJJvZT-28" target="RpQ-3ubnt-UxJicJJvZT-30">
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="RpQ-3ubnt-UxJicJJvZT-28" target="RpQ-3ubnt-UxJicJJvZT-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RpQ-3ubnt-UxJicJJvZT-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RpQ-3ubnt-UxJicJJvZT-28" target="RpQ-3ubnt-UxJicJJvZT-32">
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="RpQ-3ubnt-UxJicJJvZT-28" target="RpQ-3ubnt-UxJicJJvZT-32" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RpQ-3ubnt-UxJicJJvZT-28" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;div class=&quot;lake-content&quot;&gt;AsyncLoad&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-28" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;div class=&quot;lake-content&quot;&gt;AsyncLoad&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1170" y="900" width="410" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="RpQ-3ubnt-UxJicJJvZT-30" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;div class=&quot;lake-content&quot;&gt;VersionsToLoad&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-30" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;div class=&quot;lake-content&quot;&gt;VersionsToLoad&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1630" y="900" width="410" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="RpQ-3ubnt-UxJicJJvZT-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RpQ-3ubnt-UxJicJJvZT-32" target="RpQ-3ubnt-UxJicJJvZT-35">
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="RpQ-3ubnt-UxJicJJvZT-32" target="RpQ-3ubnt-UxJicJJvZT-35" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RpQ-3ubnt-UxJicJJvZT-38" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RpQ-3ubnt-UxJicJJvZT-36">
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-38" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="RpQ-3ubnt-UxJicJJvZT-36" vertex="1" connectable="0">
           <mxGeometry x="-0.0088" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RpQ-3ubnt-UxJicJJvZT-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RpQ-3ubnt-UxJicJJvZT-32" target="RpQ-3ubnt-UxJicJJvZT-33">
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="RpQ-3ubnt-UxJicJJvZT-32" target="RpQ-3ubnt-UxJicJJvZT-33" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RpQ-3ubnt-UxJicJJvZT-41" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RpQ-3ubnt-UxJicJJvZT-40">
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-41" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="RpQ-3ubnt-UxJicJJvZT-40" vertex="1" connectable="0">
           <mxGeometry x="0.1914" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RpQ-3ubnt-UxJicJJvZT-32" value="serving_model-&gt;state_ == ModelReadyState::READY" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-32" value="serving_model-&gt;state_ == ModelReadyState::READY" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1160" y="1050" width="430" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="RpQ-3ubnt-UxJicJJvZT-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RpQ-3ubnt-UxJicJJvZT-33" target="RpQ-3ubnt-UxJicJJvZT-46">
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="RpQ-3ubnt-UxJicJJvZT-33" target="RpQ-3ubnt-UxJicJJvZT-46" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RpQ-3ubnt-UxJicJJvZT-33" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;div class=&quot;lake-content&quot;&gt;&lt;div class=&quot;lake-content&quot;&gt;load_pool_-&amp;gt;Enqueue([this, model_id, version, model_info, OnComplete,&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;load_tracker, is_config_provided]() {&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;lake-content&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; for (size_t retry = 0; retry &amp;lt;= options_.load_retry; ++retry) {&lt;/div&gt;&lt;div class=&quot;lake-content&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; model_info-&amp;gt;state_ = ModelReadyState::LOADING;&lt;/div&gt;&lt;div class=&quot;lake-content&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; CreateModel(model_id, version, model_info, is_config_provided);&lt;/div&gt;&lt;div class=&quot;lake-content&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // Model state will be changed to NOT loading if failed to load,&lt;/div&gt;&lt;div class=&quot;lake-content&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // so the model is loaded if state is LOADING.&lt;/div&gt;&lt;div class=&quot;lake-content&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if (model_info-&amp;gt;state_ == ModelReadyState::LOADING) {&lt;/div&gt;&lt;div class=&quot;lake-content&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; break;&lt;/div&gt;&lt;div class=&quot;lake-content&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div class=&quot;lake-content&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div class=&quot;lake-content&quot;&gt;&amp;nbsp;OnLoadComplete(&lt;/div&gt;&lt;div class=&quot;lake-content&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; model_id, version, model_info, false /* is_update */, OnComplete,&lt;/div&gt;&lt;div class=&quot;lake-content&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; load_tracker);&lt;/div&gt;&lt;div class=&quot;lake-content&quot;&gt;&amp;nbsp;});&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-33" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;div class=&quot;lake-content&quot;&gt;&lt;div class=&quot;lake-content&quot;&gt;load_pool_-&amp;gt;Enqueue([this, model_id, version, model_info, OnComplete,&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;load_tracker, is_config_provided]() {&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;lake-content&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; for (size_t retry = 0; retry &amp;lt;= options_.load_retry; ++retry) {&lt;/div&gt;&lt;div class=&quot;lake-content&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; model_info-&amp;gt;state_ = ModelReadyState::LOADING;&lt;/div&gt;&lt;div class=&quot;lake-content&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; CreateModel(model_id, version, model_info, is_config_provided);&lt;/div&gt;&lt;div class=&quot;lake-content&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // Model state will be changed to NOT loading if failed to load,&lt;/div&gt;&lt;div class=&quot;lake-content&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // so the model is loaded if state is LOADING.&lt;/div&gt;&lt;div class=&quot;lake-content&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; if (model_info-&amp;gt;state_ == ModelReadyState::LOADING) {&lt;/div&gt;&lt;div class=&quot;lake-content&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; break;&lt;/div&gt;&lt;div class=&quot;lake-content&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div class=&quot;lake-content&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; }&lt;/div&gt;&lt;div class=&quot;lake-content&quot;&gt;&amp;nbsp;OnLoadComplete(&lt;/div&gt;&lt;div class=&quot;lake-content&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; model_id, version, model_info, false /* is_update */, OnComplete,&lt;/div&gt;&lt;div class=&quot;lake-content&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; load_tracker);&lt;/div&gt;&lt;div class=&quot;lake-content&quot;&gt;&amp;nbsp;});&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="1170" y="1320" width="410" height="250" as="geometry" />
         </mxCell>
-        <mxCell id="RpQ-3ubnt-UxJicJJvZT-35" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;div class=&quot;lake-content&quot;&gt;&lt;div class=&quot;lake-content&quot;&gt;load_pool_-&amp;gt;Enqueue([this, model_id, version, model_info,&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;model_config, OnComplete, load_tracker]() {&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;lake-content&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;UpdateModelConfig(model_id, version, model_info, model_config);&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;lake-content&quot;&gt;OnLoadComplete(&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;model_id, version, model_info, true /* is_update */, OnComplete,&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;load_tracker);&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;lake-content&quot;&gt;&amp;nbsp;});&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-35" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;div class=&quot;lake-content&quot;&gt;&lt;div class=&quot;lake-content&quot;&gt;load_pool_-&amp;gt;Enqueue([this, model_id, version, model_info,&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;model_config, OnComplete, load_tracker]() {&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;lake-content&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;UpdateModelConfig(model_id, version, model_info, model_config);&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;lake-content&quot;&gt;OnLoadComplete(&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;model_id, version, model_info, true /* is_update */, OnComplete,&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;load_tracker);&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;lake-content&quot;&gt;&amp;nbsp;});&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="1630" y="1065" width="410" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="RpQ-3ubnt-UxJicJJvZT-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RpQ-3ubnt-UxJicJJvZT-46" target="RpQ-3ubnt-UxJicJJvZT-48">
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="RpQ-3ubnt-UxJicJJvZT-46" target="RpQ-3ubnt-UxJicJJvZT-48" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RpQ-3ubnt-UxJicJJvZT-46" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;div class=&quot;lake-content&quot;&gt;CreateModel&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-46" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;div class=&quot;lake-content&quot;&gt;CreateModel&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1170" y="1640" width="410" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="RpQ-3ubnt-UxJicJJvZT-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RpQ-3ubnt-UxJicJJvZT-48" target="RpQ-3ubnt-UxJicJJvZT-50">
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="RpQ-3ubnt-UxJicJJvZT-48" target="RpQ-3ubnt-UxJicJJvZT-50" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RpQ-3ubnt-UxJicJJvZT-53" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RpQ-3ubnt-UxJicJJvZT-51">
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-53" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="RpQ-3ubnt-UxJicJJvZT-51" vertex="1" connectable="0">
           <mxGeometry x="-0.4494" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RpQ-3ubnt-UxJicJJvZT-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RpQ-3ubnt-UxJicJJvZT-48" target="RpQ-3ubnt-UxJicJJvZT-52">
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="RpQ-3ubnt-UxJicJJvZT-48" target="RpQ-3ubnt-UxJicJJvZT-52" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RpQ-3ubnt-UxJicJJvZT-55" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RpQ-3ubnt-UxJicJJvZT-54">
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-55" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="RpQ-3ubnt-UxJicJJvZT-54" vertex="1" connectable="0">
           <mxGeometry x="0.0282" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RpQ-3ubnt-UxJicJJvZT-48" value="if (!model_config.backend().empty())" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-48" value="if (!model_config.backend().empty())" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1160" y="1790" width="430" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="RpQ-3ubnt-UxJicJJvZT-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RpQ-3ubnt-UxJicJJvZT-50" target="RpQ-3ubnt-UxJicJJvZT-56">
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="RpQ-3ubnt-UxJicJJvZT-50" target="RpQ-3ubnt-UxJicJJvZT-56" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RpQ-3ubnt-UxJicJJvZT-50" value="&lt;div&gt;TritonModel::Create(&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;server_, model_info-&amp;gt;model_path_, options_.backend_cmdline_config_map,&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;options_.host_policy_map, model_id, version, model_config,&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;is_config_provided, &amp;amp;model);&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-50" value="&lt;div&gt;TritonModel::Create(&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;server_, model_info-&amp;gt;model_path_, options_.backend_cmdline_config_map,&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;options_.host_policy_map, model_id, version, model_config,&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;is_config_provided, &amp;amp;model);&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="1170" y="2000" width="410" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="RpQ-3ubnt-UxJicJJvZT-52" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;div class=&quot;lake-content&quot;&gt;&lt;div class=&quot;lake-content&quot;&gt;EnsembleModel::Create(&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;server_, model_info-&amp;gt;model_path_, model_id, version, model_config,&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;is_config_provided, options_.min_compute_capability, &amp;amp;is);&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-52" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;div class=&quot;lake-content&quot;&gt;&lt;div class=&quot;lake-content&quot;&gt;EnsembleModel::Create(&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;server_, model_info-&amp;gt;model_path_, model_id, version, model_config,&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;is_config_provided, options_.min_compute_capability, &amp;amp;is);&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="1650" y="1842.5" width="410" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="RpQ-3ubnt-UxJicJJvZT-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RpQ-3ubnt-UxJicJJvZT-56" target="RpQ-3ubnt-UxJicJJvZT-58">
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="RpQ-3ubnt-UxJicJJvZT-56" target="RpQ-3ubnt-UxJicJJvZT-58" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RpQ-3ubnt-UxJicJJvZT-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RpQ-3ubnt-UxJicJJvZT-56" target="RpQ-3ubnt-UxJicJJvZT-74">
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="RpQ-3ubnt-UxJicJJvZT-56" target="RpQ-3ubnt-UxJicJJvZT-74" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RpQ-3ubnt-UxJicJJvZT-56" value="TritonModel::Create" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-56" value="TritonModel::Create" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="1170" y="2150" width="410" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="RpQ-3ubnt-UxJicJJvZT-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RpQ-3ubnt-UxJicJJvZT-58" target="RpQ-3ubnt-UxJicJJvZT-66">
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="RpQ-3ubnt-UxJicJJvZT-58" target="RpQ-3ubnt-UxJicJJvZT-66" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RpQ-3ubnt-UxJicJJvZT-58" value="server-&amp;gt;BackendManager()-&amp;gt;CreateBackend" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-58" value="server-&amp;gt;BackendManager()-&amp;gt;CreateBackend" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="1650" y="2150" width="410" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="RpQ-3ubnt-UxJicJJvZT-60" value="new TritonModel" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-60" value="new TritonModel" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="1654" y="2270" width="410" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="RpQ-3ubnt-UxJicJJvZT-62" value="backend-&amp;gt;ModelInitFn()" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-62" value="backend-&amp;gt;ModelInitFn()" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="1654" y="2390" width="410" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="RpQ-3ubnt-UxJicJJvZT-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RpQ-3ubnt-UxJicJJvZT-66" target="RpQ-3ubnt-UxJicJJvZT-70">
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="RpQ-3ubnt-UxJicJJvZT-66" target="RpQ-3ubnt-UxJicJJvZT-70" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RpQ-3ubnt-UxJicJJvZT-66" value="TritonBackend::Create" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-66" value="TritonBackend::Create" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="2100" y="2150" width="410" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="RpQ-3ubnt-UxJicJJvZT-68" value="backend-api" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-68" value="backend-api" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="2310" y="2390" width="410" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="RpQ-3ubnt-UxJicJJvZT-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RpQ-3ubnt-UxJicJJvZT-70" target="RpQ-3ubnt-UxJicJJvZT-68">
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="RpQ-3ubnt-UxJicJJvZT-70" target="RpQ-3ubnt-UxJicJJvZT-68" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RpQ-3ubnt-UxJicJJvZT-70" value="TritonBackend::LoadBackendLibrary" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-70" value="TritonBackend::LoadBackendLibrary" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="2200" y="2270" width="410" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="RpQ-3ubnt-UxJicJJvZT-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RpQ-3ubnt-UxJicJJvZT-74" target="RpQ-3ubnt-UxJicJJvZT-76">
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="RpQ-3ubnt-UxJicJJvZT-74" target="RpQ-3ubnt-UxJicJJvZT-76" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RpQ-3ubnt-UxJicJJvZT-74" value="PrepareInstances" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-74" value="PrepareInstances" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="1650" y="2610" width="410" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="RpQ-3ubnt-UxJicJJvZT-79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RpQ-3ubnt-UxJicJJvZT-76" target="RpQ-3ubnt-UxJicJJvZT-78">
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="RpQ-3ubnt-UxJicJJvZT-76" target="RpQ-3ubnt-UxJicJJvZT-78" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RpQ-3ubnt-UxJicJJvZT-76" value="CreateInstance" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-76" value="CreateInstance" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="2100" y="2610" width="410" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="RpQ-3ubnt-UxJicJJvZT-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RpQ-3ubnt-UxJicJJvZT-78" target="RpQ-3ubnt-UxJicJJvZT-80">
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="RpQ-3ubnt-UxJicJJvZT-78" target="RpQ-3ubnt-UxJicJJvZT-80" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RpQ-3ubnt-UxJicJJvZT-78" value="ConstructAndInitializeInstance" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-78" value="ConstructAndInitializeInstance" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="2170" y="2740" width="410" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="RpQ-3ubnt-UxJicJJvZT-80" value="&lt;div&gt;if（model-&amp;gt;Backend()-&amp;gt;ModelInstanceInitFn() != nullptr）&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;model-&amp;gt;Backend()-&amp;gt;ModelInstanceInitFn()(triton_instance)&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="EitAHyJn2PNV5uwUmFeK-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RpQ-3ubnt-UxJicJJvZT-80" target="EitAHyJn2PNV5uwUmFeK-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-80" value="&lt;div&gt;if（model-&amp;gt;Backend()-&amp;gt;ModelInstanceInitFn() != nullptr）&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;model-&amp;gt;Backend()-&amp;gt;ModelInstanceInitFn()(triton_instance)&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="2240" y="2870" width="410" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="EitAHyJn2PNV5uwUmFeK-1" value="SetBackendThread" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="2310" y="2980" width="410" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
