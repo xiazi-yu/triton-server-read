@@ -159,6 +159,9 @@
         <mxCell id="RpQ-3ubnt-UxJicJJvZT-56" value="TritonModel::Create" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="1170" y="2150" width="410" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-58" value="server-&amp;gt;BackendManager()-&amp;gt;CreateBackend" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="2150" width="410" height="70" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
