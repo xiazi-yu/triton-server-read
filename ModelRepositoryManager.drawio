@@ -147,11 +147,17 @@
         <mxCell id="RpQ-3ubnt-UxJicJJvZT-48" value="if (!model_config.backend().empty())" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1160" y="1790" width="430" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="RpQ-3ubnt-UxJicJJvZT-50" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;div class=&quot;lake-content&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1170" y="2000" width="410" height="80" as="geometry" />
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RpQ-3ubnt-UxJicJJvZT-50" target="RpQ-3ubnt-UxJicJJvZT-56">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RpQ-3ubnt-UxJicJJvZT-52" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;div class=&quot;lake-content&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1640" y="1830" width="410" height="80" as="geometry" />
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-50" value="&lt;div&gt;TritonModel::Create(&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;server_, model_info-&amp;gt;model_path_, options_.backend_cmdline_config_map,&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;options_.host_policy_map, model_id, version, model_config,&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;is_config_provided, &amp;amp;model);&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="2000" width="410" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-52" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;div class=&quot;lake-content&quot;&gt;&lt;div class=&quot;lake-content&quot;&gt;EnsembleModel::Create(&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;server_, model_info-&amp;gt;model_path_, model_id, version, model_config,&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;is_config_provided, options_.min_compute_capability, &amp;amp;is);&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1650" y="1842.5" width="410" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-56" value="TritonModel::Create" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="2150" width="410" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
