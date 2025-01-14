@@ -210,7 +210,7 @@
         <mxCell id="RpQ-3ubnt-UxJicJJvZT-78" value="ConstructAndInitializeInstance" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="2170" y="2740" width="410" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="RpQ-3ubnt-UxJicJJvZT-80" value="model-&amp;gt;Backend()-&amp;gt;ModelInstanceInitFn()(triton_instance)" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-80" value="&lt;div&gt;if（model-&amp;gt;Backend()-&amp;gt;ModelInstanceInitFn() != nullptr）&lt;/div&gt;&lt;div&gt;{&lt;/div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;model-&amp;gt;Backend()-&amp;gt;ModelInstanceInitFn()(triton_instance)&lt;div&gt;}&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="2240" y="2870" width="410" height="70" as="geometry" />
         </mxCell>
       </root>
