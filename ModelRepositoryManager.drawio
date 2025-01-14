@@ -204,8 +204,14 @@
         <mxCell id="RpQ-3ubnt-UxJicJJvZT-76" value="CreateInstance" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="2100" y="2610" width="410" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="RpQ-3ubnt-UxJicJJvZT-78" target="RpQ-3ubnt-UxJicJJvZT-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="RpQ-3ubnt-UxJicJJvZT-78" value="ConstructAndInitializeInstance" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="2170" y="2740" width="410" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-80" value="model-&amp;gt;Backend()-&amp;gt;ModelInstanceInitFn()(triton_instance)" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="2240" y="2870" width="410" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
