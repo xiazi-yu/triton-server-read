@@ -234,7 +234,7 @@
         <mxCell id="EitAHyJn2PNV5uwUmFeK-5" value="BackendThread" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="2100" y="3220" width="410" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="EitAHyJn2PNV5uwUmFeK-7" value="BackendThread" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+        <mxCell id="EitAHyJn2PNV5uwUmFeK-7" value="InitAndWarmUpModelInstance" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="2100" y="3350" width="410" height="70" as="geometry" />
         </mxCell>
       </root>
