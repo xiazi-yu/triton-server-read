@@ -10,8 +10,14 @@
         <mxCell id="RpQ-3ubnt-UxJicJJvZT-1" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;span style=&quot;color: var(--md-editor-text-color-active)&quot; class=&quot;ne-text&quot;&gt;ModelRepositoryManager&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="80" width="170" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RpQ-3ubnt-UxJicJJvZT-2" target="RpQ-3ubnt-UxJicJJvZT-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="RpQ-3ubnt-UxJicJJvZT-2" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;span style=&quot;color: var(--md-editor-text-color-active)&quot; class=&quot;ne-text&quot;&gt;Create&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="250" y="80" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-4" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;span style=&quot;color: var(--md-editor-text-color-active)&quot; class=&quot;ne-text&quot;&gt;ModelLifeCycle&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="80" width="170" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
