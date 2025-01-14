@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.5">
   <diagram name="第 1 页" id="f1nWCCuWI_6rAyLzlvaS">
-    <mxGraphModel dx="1969" dy="908" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1860" dy="858" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -159,11 +159,14 @@
         <mxCell id="RpQ-3ubnt-UxJicJJvZT-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RpQ-3ubnt-UxJicJJvZT-56" target="RpQ-3ubnt-UxJicJJvZT-58">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RpQ-3ubnt-UxJicJJvZT-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="RpQ-3ubnt-UxJicJJvZT-56" target="RpQ-3ubnt-UxJicJJvZT-62">
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RpQ-3ubnt-UxJicJJvZT-56" target="RpQ-3ubnt-UxJicJJvZT-74">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RpQ-3ubnt-UxJicJJvZT-56" value="TritonModel::Create" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="1170" y="2150" width="410" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RpQ-3ubnt-UxJicJJvZT-58" target="RpQ-3ubnt-UxJicJJvZT-66">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="RpQ-3ubnt-UxJicJJvZT-58" value="server-&amp;gt;BackendManager()-&amp;gt;CreateBackend" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="1650" y="2150" width="410" height="70" as="geometry" />
@@ -173,6 +176,24 @@
         </mxCell>
         <mxCell id="RpQ-3ubnt-UxJicJJvZT-62" value="backend-&amp;gt;ModelInitFn()" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="1657" y="2390" width="410" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-73" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RpQ-3ubnt-UxJicJJvZT-66" target="RpQ-3ubnt-UxJicJJvZT-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-66" value="TritonBackend::Create" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="2100" y="2150" width="410" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-68" value="backend-api" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="2310" y="2390" width="410" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RpQ-3ubnt-UxJicJJvZT-70" target="RpQ-3ubnt-UxJicJJvZT-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-70" value="TritonBackend::LoadBackendLibrary" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="2200" y="2270" width="410" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-74" value="PrepareInstances" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1657" y="2550" width="410" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
