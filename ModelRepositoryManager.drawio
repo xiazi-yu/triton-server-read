@@ -122,8 +122,36 @@
         <mxCell id="RpQ-3ubnt-UxJicJJvZT-35" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;div class=&quot;lake-content&quot;&gt;&lt;div class=&quot;lake-content&quot;&gt;load_pool_-&amp;gt;Enqueue([this, model_id, version, model_info,&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;model_config, OnComplete, load_tracker]() {&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;lake-content&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;UpdateModelConfig(model_id, version, model_info, model_config);&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;lake-content&quot;&gt;OnLoadComplete(&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;model_id, version, model_info, true /* is_update */, OnComplete,&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;load_tracker);&lt;/span&gt;&lt;/div&gt;&lt;div class=&quot;lake-content&quot;&gt;&amp;nbsp;});&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="1630" y="1065" width="410" height="130" as="geometry" />
         </mxCell>
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RpQ-3ubnt-UxJicJJvZT-46" target="RpQ-3ubnt-UxJicJJvZT-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="RpQ-3ubnt-UxJicJJvZT-46" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;div class=&quot;lake-content&quot;&gt;CreateModel&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1170" y="1640" width="410" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RpQ-3ubnt-UxJicJJvZT-48" target="RpQ-3ubnt-UxJicJJvZT-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-53" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RpQ-3ubnt-UxJicJJvZT-51">
+          <mxGeometry x="-0.4494" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RpQ-3ubnt-UxJicJJvZT-48" target="RpQ-3ubnt-UxJicJJvZT-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-55" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RpQ-3ubnt-UxJicJJvZT-54">
+          <mxGeometry x="0.0282" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-48" value="if (!model_config.backend().empty())" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="1790" width="430" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-50" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;div class=&quot;lake-content&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="2000" width="410" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-52" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;div class=&quot;lake-content&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="1830" width="410" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
