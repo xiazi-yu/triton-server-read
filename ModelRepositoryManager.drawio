@@ -91,6 +91,31 @@
         <mxCell id="RpQ-3ubnt-UxJicJJvZT-30" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;div class=&quot;lake-content&quot;&gt;VersionsToLoad&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1630" y="900" width="410" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RpQ-3ubnt-UxJicJJvZT-32" target="RpQ-3ubnt-UxJicJJvZT-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-38" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RpQ-3ubnt-UxJicJJvZT-36">
+          <mxGeometry x="-0.0088" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RpQ-3ubnt-UxJicJJvZT-32" target="RpQ-3ubnt-UxJicJJvZT-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-41" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RpQ-3ubnt-UxJicJJvZT-40">
+          <mxGeometry x="0.1914" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-32" value="&lt;div style=&quot;color: rgb(204, 204, 204); background-color: rgb(31, 31, 31); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;serving_model&lt;/span&gt;&lt;span style=&quot;color: #dcdcaa;&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;color: #9cdcfe;&quot;&gt;state_&lt;/span&gt; &lt;span style=&quot;color: #d4d4d4;&quot;&gt;==&lt;/span&gt; &lt;span style=&quot;color: #4ec9b0;&quot;&gt;ModelReadyState&lt;/span&gt;::&lt;span style=&quot;color: #4fc1ff;&quot;&gt;READY&lt;/span&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="1050" width="430" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-33" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;div class=&quot;lake-content&quot;&gt;AsyncLoad&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="1320" width="410" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-35" value="&lt;div class=&quot;lake-content&quot;&gt;&lt;div class=&quot;lake-content&quot;&gt;AsyncLoad&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1630" y="1090" width="410" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
