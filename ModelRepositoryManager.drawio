@@ -198,8 +198,14 @@
         <mxCell id="RpQ-3ubnt-UxJicJJvZT-74" value="PrepareInstances" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="1650" y="2610" width="410" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RpQ-3ubnt-UxJicJJvZT-76" target="RpQ-3ubnt-UxJicJJvZT-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="RpQ-3ubnt-UxJicJJvZT-76" value="CreateInstance" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="2100" y="2610" width="410" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="RpQ-3ubnt-UxJicJJvZT-78" value="ConstructAndInitializeInstance" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="2170" y="2740" width="410" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
