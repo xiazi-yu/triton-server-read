@@ -231,6 +231,9 @@
         <mxCell id="EitAHyJn2PNV5uwUmFeK-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="EitAHyJn2PNV5uwUmFeK-5" target="EitAHyJn2PNV5uwUmFeK-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="XJMiBNskpwX0Irdqg2bb-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EitAHyJn2PNV5uwUmFeK-5" target="XJMiBNskpwX0Irdqg2bb-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="EitAHyJn2PNV5uwUmFeK-5" value="BackendThread" style="rounded=0;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="2100" y="3220" width="410" height="70" as="geometry" />
         </mxCell>
@@ -267,6 +270,15 @@
         </mxCell>
         <mxCell id="XJMiBNskpwX0Irdqg2bb-5" value="InstanceQueue::Enqueue" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="2100" y="3710" width="410" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="XJMiBNskpwX0Irdqg2bb-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XJMiBNskpwX0Irdqg2bb-10" target="XJMiBNskpwX0Irdqg2bb-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XJMiBNskpwX0Irdqg2bb-10" value="RateLimiter::DequeuePayload" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="3220" width="410" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="XJMiBNskpwX0Irdqg2bb-12" value="InstanceQueue::Dequeue" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1640" y="3360" width="410" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
