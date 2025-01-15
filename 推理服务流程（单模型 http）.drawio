@@ -16,6 +16,12 @@
         <mxCell id="nku8yffjrh3vuvWNtaAY-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nku8yffjrh3vuvWNtaAY-3" target="nku8yffjrh3vuvWNtaAY-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="nku8yffjrh3vuvWNtaAY-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nku8yffjrh3vuvWNtaAY-3" target="nku8yffjrh3vuvWNtaAY-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nku8yffjrh3vuvWNtaAY-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nku8yffjrh3vuvWNtaAY-3" target="nku8yffjrh3vuvWNtaAY-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="nku8yffjrh3vuvWNtaAY-3" value="&lt;div&gt;core/tritonserver.cc&lt;/div&gt;&lt;div&gt;TRITONSERVER_InferenceRequestNew&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1560" y="220" width="230" height="60" as="geometry" />
         </mxCell>
@@ -27,6 +33,24 @@
         </mxCell>
         <mxCell id="nku8yffjrh3vuvWNtaAY-7" value="&lt;div&gt;ModelLifeCycle::GetModel&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2120" y="220" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nku8yffjrh3vuvWNtaAY-9" value="&lt;div&gt;ModelRepositoryManager::GetModel&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1850" y="320" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nku8yffjrh3vuvWNtaAY-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="nku8yffjrh3vuvWNtaAY-11" target="nku8yffjrh3vuvWNtaAY-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nku8yffjrh3vuvWNtaAY-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nku8yffjrh3vuvWNtaAY-11" target="nku8yffjrh3vuvWNtaAY-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nku8yffjrh3vuvWNtaAY-11" value="&lt;div&gt;core/tritonserver.cc&lt;/div&gt;&lt;div&gt;EVRequestToTritonRequest&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="410" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nku8yffjrh3vuvWNtaAY-13" value="&lt;div&gt;core/tritonserver.cc&lt;/div&gt;&lt;div&gt;EVBufferToInput&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1850" y="410" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nku8yffjrh3vuvWNtaAY-15" value="&lt;div&gt;core/tritonserver.cc&lt;/div&gt;&lt;div&gt;EVBufferToRawInput&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1850" y="500" width="230" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
