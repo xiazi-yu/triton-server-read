@@ -43,6 +43,9 @@
         <mxCell id="nku8yffjrh3vuvWNtaAY-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nku8yffjrh3vuvWNtaAY-11" target="nku8yffjrh3vuvWNtaAY-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="nku8yffjrh3vuvWNtaAY-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="nku8yffjrh3vuvWNtaAY-11" target="nku8yffjrh3vuvWNtaAY-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="nku8yffjrh3vuvWNtaAY-11" value="&lt;div&gt;core/tritonserver.cc&lt;/div&gt;&lt;div&gt;EVRequestToTritonRequest&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1560" y="410" width="230" height="60" as="geometry" />
         </mxCell>
@@ -51,6 +54,9 @@
         </mxCell>
         <mxCell id="nku8yffjrh3vuvWNtaAY-15" value="&lt;div&gt;core/tritonserver.cc&lt;/div&gt;&lt;div&gt;EVBufferToRawInput&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1850" y="500" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nku8yffjrh3vuvWNtaAY-17" value="&lt;div&gt;core/tritonserver.cc&lt;/div&gt;&lt;div&gt;TRITONSERVER_InferenceRequestId&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="600" width="230" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
