@@ -109,11 +109,20 @@
         <mxCell id="nku8yffjrh3vuvWNtaAY-34" value="&lt;div&gt;core/model.h&lt;/div&gt;&lt;div&gt;Enqueue&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2200" y="1190" width="230" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="nku8yffjrh3vuvWNtaAY-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nku8yffjrh3vuvWNtaAY-36" target="nku8yffjrh3vuvWNtaAY-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="nku8yffjrh3vuvWNtaAY-36" value="&lt;div&gt;core/dynamic_batch_scheduler.cc&lt;/div&gt;&lt;div&gt;DynamicBatchScheduler::Enqueue&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2200" y="1280" width="230" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="nku8yffjrh3vuvWNtaAY-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nku8yffjrh3vuvWNtaAY-38" target="nku8yffjrh3vuvWNtaAY-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="nku8yffjrh3vuvWNtaAY-38" value="&lt;div&gt;core/rate_limiter.cc&lt;/div&gt;&lt;div&gt;RateLimiter::EnqueuePayload&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2200" y="1370" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nku8yffjrh3vuvWNtaAY-40" value="&lt;div&gt;core/rate_limiter.cc&lt;/div&gt;&lt;div&gt;RateLimiter::SchedulePayload&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2200" y="1460" width="230" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
