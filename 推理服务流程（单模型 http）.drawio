@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.5">
   <diagram name="第 1 页" id="pDGJuI-7vzYrcwJg5P6v">
-    <mxGraphModel dx="461" dy="594" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2893" dy="1716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -184,6 +184,53 @@
         </mxCell>
         <mxCell id="nku8yffjrh3vuvWNtaAY-63" value="&lt;div&gt;core/backend_model_instance.cc&lt;/div&gt;&lt;div&gt;TritonModelInstance::Execute&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="1850" y="1880" width="320" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nku8yffjrh3vuvWNtaAY-68" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nku8yffjrh3vuvWNtaAY-65" target="nku8yffjrh3vuvWNtaAY-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nku8yffjrh3vuvWNtaAY-65" value="model_-&amp;gt;Backend()-&amp;gt;ModelInstanceExecFn()" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1555" y="1980" width="220" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nku8yffjrh3vuvWNtaAY-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.476;entryY=0.042;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="nku8yffjrh3vuvWNtaAY-57" target="nku8yffjrh3vuvWNtaAY-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nku8yffjrh3vuvWNtaAY-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nku8yffjrh3vuvWNtaAY-67" target="nku8yffjrh3vuvWNtaAY-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nku8yffjrh3vuvWNtaAY-71" value="以dali为例" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nku8yffjrh3vuvWNtaAY-70">
+          <mxGeometry x="0.1631" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nku8yffjrh3vuvWNtaAY-67" value="执行具体backend的&lt;div&gt;TRITONBACKEND_ModelInstanceExecute&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="2100" width="230" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nku8yffjrh3vuvWNtaAY-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nku8yffjrh3vuvWNtaAY-69" target="nku8yffjrh3vuvWNtaAY-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nku8yffjrh3vuvWNtaAY-69" value="DaliModelInstance::Execute(const std::vector&amp;lt;TritonRequest&amp;gt;&amp;amp; requests)" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="2220" width="230" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nku8yffjrh3vuvWNtaAY-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nku8yffjrh3vuvWNtaAY-72" target="nku8yffjrh3vuvWNtaAY-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nku8yffjrh3vuvWNtaAY-72" value="DaliModelInstance::ExecuteBatched(const std::vector&amp;lt;TritonRequest&amp;gt;&amp;amp; requests)" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="2320" width="230" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nku8yffjrh3vuvWNtaAY-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nku8yffjrh3vuvWNtaAY-73" target="nku8yffjrh3vuvWNtaAY-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nku8yffjrh3vuvWNtaAY-73" value="ProcessRequests" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="2430" width="230" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nku8yffjrh3vuvWNtaAY-79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nku8yffjrh3vuvWNtaAY-74" target="nku8yffjrh3vuvWNtaAY-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nku8yffjrh3vuvWNtaAY-74" value="SendResponse" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="2540" width="230" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nku8yffjrh3vuvWNtaAY-78" value="TRITONBACKEND_ResponseSend" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1550" y="2650" width="230" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
