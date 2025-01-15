@@ -73,8 +73,14 @@
         <mxCell id="nku8yffjrh3vuvWNtaAY-21" value="&lt;div&gt;core/http_server.cc&lt;/div&gt;&lt;div&gt;TRITONSERVER_InferenceRequestSetReleaseCallback&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1490" y="800" width="370" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="nku8yffjrh3vuvWNtaAY-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nku8yffjrh3vuvWNtaAY-23" target="nku8yffjrh3vuvWNtaAY-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="nku8yffjrh3vuvWNtaAY-23" value="&lt;div&gt;core/http_server.cc&lt;/div&gt;&lt;div&gt;TRITONSERVER_InferenceRequestSetResponseCallback&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1490" y="900" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nku8yffjrh3vuvWNtaAY-25" value="&lt;div&gt;core/http_server.cc&lt;/div&gt;&lt;div&gt;TRITONSERVER_ServerInferAsync&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1560" y="990" width="230" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
