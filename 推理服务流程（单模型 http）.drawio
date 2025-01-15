@@ -112,6 +112,9 @@
         <mxCell id="nku8yffjrh3vuvWNtaAY-36" value="&lt;div&gt;core/dynamic_batch_scheduler.cc&lt;/div&gt;&lt;div&gt;DynamicBatchScheduler::Enqueue&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2200" y="1280" width="230" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="nku8yffjrh3vuvWNtaAY-38" value="&lt;div&gt;core/rate_limiter.cc&lt;/div&gt;&lt;div&gt;RateLimiter::EnqueuePayload&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2200" y="1370" width="230" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
