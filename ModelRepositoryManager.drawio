@@ -246,8 +246,14 @@
         <mxCell id="XJMiBNskpwX0Irdqg2bb-1" value="RateLimiter::EnqueuePayload" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="2100" y="3460" width="410" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="XJMiBNskpwX0Irdqg2bb-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XJMiBNskpwX0Irdqg2bb-3" target="XJMiBNskpwX0Irdqg2bb-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="XJMiBNskpwX0Irdqg2bb-3" value="RateLimiter::SchedulePayload" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="2100" y="3580" width="410" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="XJMiBNskpwX0Irdqg2bb-5" value="InstanceQueue::Enqueue" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="2100" y="3710" width="410" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
