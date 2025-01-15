@@ -13,11 +13,20 @@
         <mxCell id="nku8yffjrh3vuvWNtaAY-2" value="&lt;span style=&quot;color: rgb(44, 44, 54); font-family: -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, &amp;quot;Noto Sans&amp;quot;, Helvetica, Arial, sans-serif, &amp;quot;Apple Color Emoji&amp;quot;, &amp;quot;Segoe UI Emoji&amp;quot;; letter-spacing: 0.08px; text-align: start; white-space-collapse: preserve; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;http infrer接口&lt;/font&gt;&lt;/span&gt;" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1465" y="130" width="90" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="nku8yffjrh3vuvWNtaAY-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nku8yffjrh3vuvWNtaAY-3" target="nku8yffjrh3vuvWNtaAY-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="nku8yffjrh3vuvWNtaAY-3" value="&lt;div&gt;core/tritonserver.cc&lt;/div&gt;&lt;div&gt;TRITONSERVER_InferenceRequestNew&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1560" y="220" width="230" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="nku8yffjrh3vuvWNtaAY-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nku8yffjrh3vuvWNtaAY-5" target="nku8yffjrh3vuvWNtaAY-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="nku8yffjrh3vuvWNtaAY-5" value="&lt;div&gt;ModelRepositoryManager::GetModel&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1860" y="220" width="230" height="60" as="geometry" />
+          <mxGeometry x="1850" y="220" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nku8yffjrh3vuvWNtaAY-7" value="&lt;div&gt;ModelLifeCycle::GetModel&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2120" y="220" width="230" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
