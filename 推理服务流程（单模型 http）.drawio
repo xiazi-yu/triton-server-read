@@ -200,7 +200,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="nku8yffjrh3vuvWNtaAY-67" value="执行具体backend的&lt;div&gt;TRITONBACKEND_ModelInstanceExecute&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="1555" y="2100" width="220" height="70" as="geometry" />
+          <mxGeometry x="1550" y="2100" width="230" height="70" as="geometry" />
         </mxCell>
         <mxCell id="nku8yffjrh3vuvWNtaAY-75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nku8yffjrh3vuvWNtaAY-69" target="nku8yffjrh3vuvWNtaAY-72">
           <mxGeometry relative="1" as="geometry" />
