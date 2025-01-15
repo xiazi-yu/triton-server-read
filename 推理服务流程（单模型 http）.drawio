@@ -247,8 +247,20 @@
         <mxCell id="nku8yffjrh3vuvWNtaAY-84" value="TRITONBACKEND_OutputBuffer" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="2100" y="2430" width="230" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="nku8yffjrh3vuvWNtaAY-89" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nku8yffjrh3vuvWNtaAY-86" target="nku8yffjrh3vuvWNtaAY-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="nku8yffjrh3vuvWNtaAY-86" value="InferenceResponse::Output::AllocateDataBuffer" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="2080" y="2540" width="270" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nku8yffjrh3vuvWNtaAY-88" value="http_server&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;::InferResponseAlloc&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="2390" y="2540" width="270" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nku8yffjrh3vuvWNtaAY-91" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nku8yffjrh3vuvWNtaAY-90" target="nku8yffjrh3vuvWNtaAY-88">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nku8yffjrh3vuvWNtaAY-90" value="&lt;div&gt;TRITONSERVER_ResponseAllocatorNew(&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;amp;allocator_, InferResponseAlloc, InferResponseFree,&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;nullptr /* start_fn */),&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&quot;creating response allocator&quot;);&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="2390" y="2410" width="270" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
