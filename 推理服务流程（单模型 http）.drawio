@@ -220,17 +220,35 @@
         <mxCell id="nku8yffjrh3vuvWNtaAY-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nku8yffjrh3vuvWNtaAY-73" target="nku8yffjrh3vuvWNtaAY-74">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nku8yffjrh3vuvWNtaAY-73" value="ProcessRequests" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+        <mxCell id="nku8yffjrh3vuvWNtaAY-83" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nku8yffjrh3vuvWNtaAY-73" target="nku8yffjrh3vuvWNtaAY-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nku8yffjrh3vuvWNtaAY-73" value="DaliModelInstance::ProcessRequests" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="1550" y="2430" width="230" height="70" as="geometry" />
         </mxCell>
         <mxCell id="nku8yffjrh3vuvWNtaAY-79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nku8yffjrh3vuvWNtaAY-74" target="nku8yffjrh3vuvWNtaAY-78">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="nku8yffjrh3vuvWNtaAY-74" value="SendResponse" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+        <mxCell id="nku8yffjrh3vuvWNtaAY-74" value="DaliModelInstance::SendResponse" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="1550" y="2540" width="230" height="70" as="geometry" />
         </mxCell>
         <mxCell id="nku8yffjrh3vuvWNtaAY-78" value="&lt;div&gt;core/backend_model.cc&lt;/div&gt;TRITONBACKEND_ResponseSend" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="1550" y="2650" width="230" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nku8yffjrh3vuvWNtaAY-85" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nku8yffjrh3vuvWNtaAY-82" target="nku8yffjrh3vuvWNtaAY-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nku8yffjrh3vuvWNtaAY-82" value="DaliModelInstance::AllocateOutputs" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="1838" y="2430" width="230" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nku8yffjrh3vuvWNtaAY-87" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nku8yffjrh3vuvWNtaAY-84" target="nku8yffjrh3vuvWNtaAY-86">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nku8yffjrh3vuvWNtaAY-84" value="TRITONBACKEND_OutputBuffer" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="2100" y="2430" width="230" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="nku8yffjrh3vuvWNtaAY-86" value="InferenceResponse::Output::AllocateDataBuffer" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="2080" y="2540" width="270" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
