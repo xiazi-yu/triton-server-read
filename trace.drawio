@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.6">
   <diagram name="第 1 页" id="EpPXmLPkkomnz7rNQVSm">
-    <mxGraphModel dx="1674" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1784" dy="441" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -18,6 +18,45 @@
         </mxCell>
         <mxCell id="FnAUWs0G80Zd_X7ktiPO-5" value="HandleInfer 为例" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="20" y="370" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FnAUWs0G80Zd_X7ktiPO-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="FnAUWs0G80Zd_X7ktiPO-6" target="FnAUWs0G80Zd_X7ktiPO-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FnAUWs0G80Zd_X7ktiPO-6" value="trace = StartTrace(req, model_name, &amp;amp;triton_trace)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="440" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FnAUWs0G80Zd_X7ktiPO-9" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="100" as="sourcePoint" />
+            <mxPoint x="290" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FnAUWs0G80Zd_X7ktiPO-10" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="100" as="sourcePoint" />
+            <mxPoint x="290" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FnAUWs0G80Zd_X7ktiPO-11" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="360" as="sourcePoint" />
+            <mxPoint x="290" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FnAUWs0G80Zd_X7ktiPO-12" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="105" as="sourcePoint" />
+            <mxPoint y="365" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FnAUWs0G80Zd_X7ktiPO-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="FnAUWs0G80Zd_X7ktiPO-13" target="FnAUWs0G80Zd_X7ktiPO-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FnAUWs0G80Zd_X7ktiPO-13" value="HTTPAPIServer::StartTrace" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="440" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FnAUWs0G80Zd_X7ktiPO-17" value="HTTPAPIServer::GetTraceStartOptions" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="525" width="220" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
