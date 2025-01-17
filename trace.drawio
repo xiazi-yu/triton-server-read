@@ -67,8 +67,8 @@
         <mxCell id="JR5Jj58M51ixNDSZ0nal-1" value="TraceManager::SampleTrace(const TraceStartOptions&amp;amp; start_options)&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="550" y="525" width="220" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JR5Jj58M51ixNDSZ0nal-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="550" y="620" width="220" height="60" as="geometry" />
+        <mxCell id="JR5Jj58M51ixNDSZ0nal-3" value="TraceManager::TraceSetting::&lt;div&gt;SampleTrace(bool force_sample)&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="620" width="300" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
