@@ -25,7 +25,7 @@
         <mxCell id="dOwxplnkT6r4AkLCZlEr-8" value="只增加新框，iou&amp;lt;0.2,补增新框" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="410" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="dOwxplnkT6r4AkLCZlEr-9" value="只增加新框，iou&amp;lt;0.2,补增新框" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="dOwxplnkT6r4AkLCZlEr-9" value="对新补标的目标框进行入库" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="490" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
