@@ -33,6 +33,9 @@
         <mxCell id="dXUoR89ki3mzmKilDUe6-4" value="目标数是否相等" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="140" y="180" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="dXUoR89ki3mzmKilDUe6-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dXUoR89ki3mzmKilDUe6-7" target="dXUoR89ki3mzmKilDUe6-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="dXUoR89ki3mzmKilDUe6-7" value="计算各个同类目标iou" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="135" y="360" width="90" height="40" as="geometry" />
         </mxCell>
@@ -46,6 +49,41 @@
           <mxGeometry x="-0.1756" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="dXUoR89ki3mzmKilDUe6-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dXUoR89ki3mzmKilDUe6-15" target="dXUoR89ki3mzmKilDUe6-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dXUoR89ki3mzmKilDUe6-15" value="满足阈值" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="440" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dXUoR89ki3mzmKilDUe6-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dXUoR89ki3mzmKilDUe6-17" target="dXUoR89ki3mzmKilDUe6-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dXUoR89ki3mzmKilDUe6-17" value="flo-vrd模型" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="565" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dXUoR89ki3mzmKilDUe6-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dXUoR89ki3mzmKilDUe6-18" target="dXUoR89ki3mzmKilDUe6-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dXUoR89ki3mzmKilDUe6-18" value="yolo-vrd模型" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="565" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dXUoR89ki3mzmKilDUe6-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.4;entryY=0.075;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dXUoR89ki3mzmKilDUe6-15" target="dXUoR89ki3mzmKilDUe6-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dXUoR89ki3mzmKilDUe6-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dXUoR89ki3mzmKilDUe6-22" target="dXUoR89ki3mzmKilDUe6-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="dXUoR89ki3mzmKilDUe6-27" value="相等" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="dXUoR89ki3mzmKilDUe6-26">
+          <mxGeometry x="-0.4857" y="9" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dXUoR89ki3mzmKilDUe6-22" value="目标数是否相等" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="660" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dXUoR89ki3mzmKilDUe6-25" value="计算各个同类目标iou" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="135" y="810" width="90" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
