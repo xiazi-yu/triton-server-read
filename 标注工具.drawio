@@ -199,6 +199,9 @@
         <mxCell id="dXUoR89ki3mzmKilDUe6-61" value="计算四个模型目标数，有两个模型结果目标数相等，且大于最小的模型结果目标" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1000" y="250" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="dXUoR89ki3mzmKilDUe6-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="dXUoR89ki3mzmKilDUe6-83" target="dXUoR89ki3mzmKilDUe6-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="dXUoR89ki3mzmKilDUe6-83" value="florence-od&lt;div&gt;模型1&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" vertex="1" parent="1">
           <mxGeometry x="140" y="1129" width="90" height="40" as="geometry" />
         </mxCell>
