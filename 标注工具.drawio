@@ -82,8 +82,20 @@
         <mxCell id="dXUoR89ki3mzmKilDUe6-22" value="目标数是否相等" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="140" y="660" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="dXUoR89ki3mzmKilDUe6-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dXUoR89ki3mzmKilDUe6-25" target="dXUoR89ki3mzmKilDUe6-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="dXUoR89ki3mzmKilDUe6-25" value="计算各个同类目标iou" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="135" y="810" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dXUoR89ki3mzmKilDUe6-28" value="满足阈值" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="890" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="dXUoR89ki3mzmKilDUe6-30" value="扣取车窗、人脸、二轮、三轮补标人脸" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="1030" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dXUoR89ki3mzmKilDUe6-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.45;entryY=-0.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dXUoR89ki3mzmKilDUe6-28" target="dXUoR89ki3mzmKilDUe6-30">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
