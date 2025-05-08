@@ -173,20 +173,31 @@
         </mxCell>
         <mxCell id="B18N643OG5OTiS8_dy-o-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B18N643OG5OTiS8_dy-o-19">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="180" y="1320" as="targetPoint" />
+            <mxPoint x="297" y="1320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="B18N643OG5OTiS8_dy-o-19" value="flo-od&lt;div&gt;模型1&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" vertex="1" parent="1">
-          <mxGeometry x="120" y="1190" width="120" height="60" as="geometry" />
+          <mxGeometry x="237" y="1190" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="B18N643OG5OTiS8_dy-o-20" value="yolo-od&lt;div&gt;模型1&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" vertex="1" parent="1">
-          <mxGeometry x="340" y="1190" width="120" height="60" as="geometry" />
+          <mxGeometry x="457" y="1190" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="B18N643OG5OTiS8_dy-o-21" value="yolo-od&lt;div&gt;模型2&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" vertex="1" parent="1">
-          <mxGeometry x="540" y="1190" width="120" height="60" as="geometry" />
+          <mxGeometry x="657" y="1190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B18N643OG5OTiS8_dy-o-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B18N643OG5OTiS8_dy-o-24" target="B18N643OG5OTiS8_dy-o-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B18N643OG5OTiS8_dy-o-27" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B18N643OG5OTiS8_dy-o-26">
+          <mxGeometry x="-0.101" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="B18N643OG5OTiS8_dy-o-24" value="是否&lt;div&gt;室内场景&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="140" y="1320" width="80" height="80" as="geometry" />
+          <mxGeometry x="257" y="1320" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B18N643OG5OTiS8_dy-o-25" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1330" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
