@@ -176,14 +176,20 @@
             <mxPoint x="297" y="1320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="B18N643OG5OTiS8_dy-o-19" value="flo-od&lt;div&gt;模型1&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" vertex="1" parent="1">
+        <mxCell id="B18N643OG5OTiS8_dy-o-19" value="flo-od&lt;div&gt;模型&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" vertex="1" parent="1">
           <mxGeometry x="237" y="1190" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="B18N643OG5OTiS8_dy-o-20" value="yolo-od&lt;div&gt;模型1&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" vertex="1" parent="1">
-          <mxGeometry x="457" y="1190" width="120" height="60" as="geometry" />
+        <mxCell id="B18N643OG5OTiS8_dy-o-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B18N643OG5OTiS8_dy-o-20" target="B18N643OG5OTiS8_dy-o-38">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="B18N643OG5OTiS8_dy-o-21" value="yolo-od&lt;div&gt;模型2&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" vertex="1" parent="1">
-          <mxGeometry x="657" y="1190" width="120" height="60" as="geometry" />
+        <mxCell id="B18N643OG5OTiS8_dy-o-20" value="yolo-od&lt;div&gt;模型1&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" vertex="1" parent="1">
+          <mxGeometry x="505" y="1190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B18N643OG5OTiS8_dy-o-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="B18N643OG5OTiS8_dy-o-21" target="B18N643OG5OTiS8_dy-o-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B18N643OG5OTiS8_dy-o-21" value="yolox-od&lt;div&gt;模型2&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" vertex="1" parent="1">
+          <mxGeometry x="705" y="1190" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="B18N643OG5OTiS8_dy-o-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B18N643OG5OTiS8_dy-o-24" target="B18N643OG5OTiS8_dy-o-25">
           <mxGeometry relative="1" as="geometry" />
@@ -193,11 +199,103 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="B18N643OG5OTiS8_dy-o-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B18N643OG5OTiS8_dy-o-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="297" y="1480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B18N643OG5OTiS8_dy-o-29" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B18N643OG5OTiS8_dy-o-28">
+          <mxGeometry x="-0.2076" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="B18N643OG5OTiS8_dy-o-24" value="是否&lt;div&gt;室内场景&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="257" y="1320" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="B18N643OG5OTiS8_dy-o-25" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="B18N643OG5OTiS8_dy-o-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="B18N643OG5OTiS8_dy-o-25" target="B18N643OG5OTiS8_dy-o-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B18N643OG5OTiS8_dy-o-36" value="补充人脸和行人" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B18N643OG5OTiS8_dy-o-35">
+          <mxGeometry x="-0.2776" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B18N643OG5OTiS8_dy-o-25" value="flo-base模型" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" vertex="1" parent="1">
           <mxGeometry x="70" y="1330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B18N643OG5OTiS8_dy-o-30" value="检测结果" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B18N643OG5OTiS8_dy-o-37" value="检测结果" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="505" y="1480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B18N643OG5OTiS8_dy-o-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B18N643OG5OTiS8_dy-o-38" target="B18N643OG5OTiS8_dy-o-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B18N643OG5OTiS8_dy-o-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B18N643OG5OTiS8_dy-o-38" target="B18N643OG5OTiS8_dy-o-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B18N643OG5OTiS8_dy-o-45" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B18N643OG5OTiS8_dy-o-44">
+          <mxGeometry x="-0.0265" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B18N643OG5OTiS8_dy-o-38" value="是否&lt;div&gt;室内场景&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="525" y="1320" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B18N643OG5OTiS8_dy-o-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="B18N643OG5OTiS8_dy-o-40" target="B18N643OG5OTiS8_dy-o-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B18N643OG5OTiS8_dy-o-40" value="yolo-face+&lt;div&gt;yolo-person模型&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" vertex="1" parent="1">
+          <mxGeometry x="370" y="1330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B18N643OG5OTiS8_dy-o-46" value="卡口+室内" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="65" y="1129" width="760" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="B18N643OG5OTiS8_dy-o-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="B18N643OG5OTiS8_dy-o-47">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="770" y="1570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B18N643OG5OTiS8_dy-o-47" value="检测结果" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="705" y="1480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B18N643OG5OTiS8_dy-o-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="B18N643OG5OTiS8_dy-o-49" target="B18N643OG5OTiS8_dy-o-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B18N643OG5OTiS8_dy-o-49" value="同类别框聚类" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1580" width="590" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B18N643OG5OTiS8_dy-o-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.552;entryY=0.002;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="B18N643OG5OTiS8_dy-o-37" target="B18N643OG5OTiS8_dy-o-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B18N643OG5OTiS8_dy-o-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.101;entryY=0.002;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="B18N643OG5OTiS8_dy-o-30" target="B18N643OG5OTiS8_dy-o-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B18N643OG5OTiS8_dy-o-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B18N643OG5OTiS8_dy-o-54" target="B18N643OG5OTiS8_dy-o-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B18N643OG5OTiS8_dy-o-54" value="簇内模型计数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="1670" width="590" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B18N643OG5OTiS8_dy-o-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B18N643OG5OTiS8_dy-o-56">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="535" y="1920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B18N643OG5OTiS8_dy-o-59" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B18N643OG5OTiS8_dy-o-58">
+          <mxGeometry x="-0.1119" y="8" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B18N643OG5OTiS8_dy-o-56" value="簇内模型计数&amp;gt;=2" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="1770" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B18N643OG5OTiS8_dy-o-60" value="yolo-vrd1&lt;div&gt;模型&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" vertex="1" parent="1">
+          <mxGeometry x="260" y="1940" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B18N643OG5OTiS8_dy-o-61" value="yolo-vrd2&lt;div&gt;模型&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" vertex="1" parent="1">
+          <mxGeometry x="630" y="1940" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
