@@ -278,24 +278,19 @@
         <mxCell id="B18N643OG5OTiS8_dy-o-54" value="簇内模型计数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="1755" width="590" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="B18N643OG5OTiS8_dy-o-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B18N643OG5OTiS8_dy-o-56">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="535" y="2005" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="B18N643OG5OTiS8_dy-o-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="B18N643OG5OTiS8_dy-o-56" target="B18N643OG5OTiS8_dy-o-92">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="B18N643OG5OTiS8_dy-o-59" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B18N643OG5OTiS8_dy-o-58">
-          <mxGeometry x="-0.1119" y="8" relative="1" as="geometry">
+        <mxCell id="B18N643OG5OTiS8_dy-o-94" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B18N643OG5OTiS8_dy-o-93">
+          <mxGeometry x="-0.1245" y="4" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="B18N643OG5OTiS8_dy-o-56" value="簇内模型计数&amp;gt;=2" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="470" y="1855" width="130" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="B18N643OG5OTiS8_dy-o-60" value="yolo-vrd1&lt;div&gt;模型&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" vertex="1" parent="1">
-          <mxGeometry x="250" y="2100" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="B18N643OG5OTiS8_dy-o-61" value="yolo-vrd2&lt;div&gt;模型&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" vertex="1" parent="1">
-          <mxGeometry x="640" y="2110" width="120" height="60" as="geometry" />
+          <mxGeometry x="620" y="2224" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="B18N643OG5OTiS8_dy-o-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="B18N643OG5OTiS8_dy-o-64">
           <mxGeometry relative="1" as="geometry">
@@ -319,8 +314,71 @@
         <mxCell id="B18N643OG5OTiS8_dy-o-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.895;entryY=0.056;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="B18N643OG5OTiS8_dy-o-66" target="B18N643OG5OTiS8_dy-o-49">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="B18N643OG5OTiS8_dy-o-72" value="是否卡口" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="495" y="2000" width="80" height="80" as="geometry" />
+        <mxCell id="B18N643OG5OTiS8_dy-o-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="B18N643OG5OTiS8_dy-o-73" target="B18N643OG5OTiS8_dy-o-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B18N643OG5OTiS8_dy-o-73" value="处理车辆、二三轮目标" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="239" y="2134" width="590" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B18N643OG5OTiS8_dy-o-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.621;entryY=0.022;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="B18N643OG5OTiS8_dy-o-73">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="384.52" y="2225.32" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B18N643OG5OTiS8_dy-o-76" value="yolo-vrd1&lt;div&gt;模型&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" vertex="1" parent="1">
+          <mxGeometry x="330" y="2224" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B18N643OG5OTiS8_dy-o-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="B18N643OG5OTiS8_dy-o-77" target="B18N643OG5OTiS8_dy-o-78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B18N643OG5OTiS8_dy-o-77" value="同类别框聚类" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="235" y="2324" width="590" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B18N643OG5OTiS8_dy-o-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="B18N643OG5OTiS8_dy-o-78" target="B18N643OG5OTiS8_dy-o-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B18N643OG5OTiS8_dy-o-78" value="簇内模型计数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="235" y="2434" width="590" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B18N643OG5OTiS8_dy-o-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="B18N643OG5OTiS8_dy-o-79" target="B18N643OG5OTiS8_dy-o-89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B18N643OG5OTiS8_dy-o-91" value="入库" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B18N643OG5OTiS8_dy-o-90">
+          <mxGeometry x="-0.2235" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B18N643OG5OTiS8_dy-o-79" value="剔除异常框" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="235" y="2684" width="590" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B18N643OG5OTiS8_dy-o-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="B18N643OG5OTiS8_dy-o-80" target="B18N643OG5OTiS8_dy-o-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B18N643OG5OTiS8_dy-o-88" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="B18N643OG5OTiS8_dy-o-87">
+          <mxGeometry x="-0.1725" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B18N643OG5OTiS8_dy-o-80" value="簇内模型计数=2" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="465" y="2544" width="130" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B18N643OG5OTiS8_dy-o-81" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.263;entryY=0.041;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="B18N643OG5OTiS8_dy-o-76" target="B18N643OG5OTiS8_dy-o-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B18N643OG5OTiS8_dy-o-84" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.764;entryY=-0.037;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="B18N643OG5OTiS8_dy-o-61" target="B18N643OG5OTiS8_dy-o-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B18N643OG5OTiS8_dy-o-89" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="500" y="2814" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="B18N643OG5OTiS8_dy-o-97" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="B18N643OG5OTiS8_dy-o-92" target="B18N643OG5OTiS8_dy-o-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B18N643OG5OTiS8_dy-o-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="B18N643OG5OTiS8_dy-o-92" target="B18N643OG5OTiS8_dy-o-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B18N643OG5OTiS8_dy-o-92" value="NMS框处理，获取最终检测框" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="2030" width="590" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
