@@ -23,7 +23,9 @@
           <mxGeometry x="340" y="260" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="0VZTM6ZU5YmMHWf4AoFY-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0VZTM6ZU5YmMHWf4AoFY-1" target="0VZTM6ZU5YmMHWf4AoFY-18">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="585" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="0VZTM6ZU5YmMHWf4AoFY-1" value="有监督训练" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="480" width="120" height="60" as="geometry" />
@@ -46,8 +48,11 @@
         <mxCell id="0VZTM6ZU5YmMHWf4AoFY-15" value="正确分组的人脸聚类数据" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
           <mxGeometry x="150" y="55" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="0VZTM6ZU5YmMHWf4AoFY-17" value="人脸特征聚类训练集" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="590" y="490" width="120" height="50" as="geometry" />
+        <mxCell id="0VZTM6ZU5YmMHWf4AoFY-17" value="待聚类人脸特征数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="600" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0VZTM6ZU5YmMHWf4AoFY-20" value="保存模型" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="370" y="585" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="0VZTM6ZU5YmMHWf4AoFY-18" value="保存模型" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="340" y="585" width="120" height="60" as="geometry" />
