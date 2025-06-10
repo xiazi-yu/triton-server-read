@@ -54,8 +54,14 @@
         <mxCell id="0VZTM6ZU5YmMHWf4AoFY-17" value="待聚类人脸特征数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="620" y="406" width="120" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="0VZTM6ZU5YmMHWf4AoFY-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0VZTM6ZU5YmMHWf4AoFY-20" target="0VZTM6ZU5YmMHWf4AoFY-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="0VZTM6ZU5YmMHWf4AoFY-20" value="模型" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="370" y="585" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0VZTM6ZU5YmMHWf4AoFY-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0VZTM6ZU5YmMHWf4AoFY-22" target="0VZTM6ZU5YmMHWf4AoFY-32">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="0VZTM6ZU5YmMHWf4AoFY-22" value="KNN计算" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="620" y="486" width="120" height="60" as="geometry" />
@@ -70,6 +76,53 @@
         </mxCell>
         <mxCell id="0VZTM6ZU5YmMHWf4AoFY-26" value="选择相似度在0.3~0.4之间的数据进行预测" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
           <mxGeometry x="740" y="570" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0VZTM6ZU5YmMHWf4AoFY-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0VZTM6ZU5YmMHWf4AoFY-28" target="0VZTM6ZU5YmMHWf4AoFY-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0VZTM6ZU5YmMHWf4AoFY-28" value="模型预测结果" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="700" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0VZTM6ZU5YmMHWf4AoFY-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0VZTM6ZU5YmMHWf4AoFY-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1240" y="516" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0VZTM6ZU5YmMHWf4AoFY-35" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0VZTM6ZU5YmMHWf4AoFY-34">
+          <mxGeometry x="0.2219" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0VZTM6ZU5YmMHWf4AoFY-32" value="节点之间相似度&amp;gt;0.4" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="476" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0VZTM6ZU5YmMHWf4AoFY-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="0VZTM6ZU5YmMHWf4AoFY-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1240" y="725" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0VZTM6ZU5YmMHWf4AoFY-39" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0VZTM6ZU5YmMHWf4AoFY-38">
+          <mxGeometry x="0.2756" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0VZTM6ZU5YmMHWf4AoFY-36" value="模型预测结果&amp;gt;0.5" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="685" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0VZTM6ZU5YmMHWf4AoFY-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0VZTM6ZU5YmMHWf4AoFY-41" target="0VZTM6ZU5YmMHWf4AoFY-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0VZTM6ZU5YmMHWf4AoFY-41" value="节点间存在关联&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1241" y="476" width="120" height="284" as="geometry" />
+        </mxCell>
+        <mxCell id="0VZTM6ZU5YmMHWf4AoFY-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0VZTM6ZU5YmMHWf4AoFY-42" target="0VZTM6ZU5YmMHWf4AoFY-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0VZTM6ZU5YmMHWf4AoFY-42" value="infomap" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1241" y="810" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0VZTM6ZU5YmMHWf4AoFY-44" value="聚类结果" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1241" y="920" width="120" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
