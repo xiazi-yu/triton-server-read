@@ -1,47 +1,56 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.9">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36" version="27.1.1">
   <diagram name="第 1 页" id="n0FgRmdMllpNhTCo88hj">
     <mxGraphModel dx="1665" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="vb5EdWWyYZ6hDgargNtk-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vb5EdWWyYZ6hDgargNtk-1" target="vb5EdWWyYZ6hDgargNtk-2">
+        <mxCell id="vb5EdWWyYZ6hDgargNtk-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="vb5EdWWyYZ6hDgargNtk-1" target="vb5EdWWyYZ6hDgargNtk-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vb5EdWWyYZ6hDgargNtk-1" value="FC-ES" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="10" width="120" height="50" as="geometry" />
+        <mxCell id="vb5EdWWyYZ6hDgargNtk-1" value="人脸特征聚类训练集" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="340" y="70" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="vb5EdWWyYZ6hDgargNtk-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vb5EdWWyYZ6hDgargNtk-2" target="vb5EdWWyYZ6hDgargNtk-5">
+        <mxCell id="vb5EdWWyYZ6hDgargNtk-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="vb5EdWWyYZ6hDgargNtk-2" target="vb5EdWWyYZ6hDgargNtk-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vb5EdWWyYZ6hDgargNtk-2" value="KNN计算" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="100" width="120" height="60" as="geometry" />
+        <mxCell id="vb5EdWWyYZ6hDgargNtk-2" value="KNN计算" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="340" y="160" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vb5EdWWyYZ6hDgargNtk-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vb5EdWWyYZ6hDgargNtk-5" target="vb5EdWWyYZ6hDgargNtk-8">
+        <mxCell id="0VZTM6ZU5YmMHWf4AoFY-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vb5EdWWyYZ6hDgargNtk-5" target="0VZTM6ZU5YmMHWf4AoFY-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vb5EdWWyYZ6hDgargNtk-5" value="NEP距离计算" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="340" y="200" width="120" height="60" as="geometry" />
+        <mxCell id="vb5EdWWyYZ6hDgargNtk-5" value="余弦距离计算" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="340" y="260" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vb5EdWWyYZ6hDgargNtk-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vb5EdWWyYZ6hDgargNtk-7" target="vb5EdWWyYZ6hDgargNtk-13">
+        <mxCell id="0VZTM6ZU5YmMHWf4AoFY-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0VZTM6ZU5YmMHWf4AoFY-1" target="0VZTM6ZU5YmMHWf4AoFY-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vb5EdWWyYZ6hDgargNtk-7" value="有监督训练" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="180" y="320" width="120" height="60" as="geometry" />
+        <mxCell id="0VZTM6ZU5YmMHWf4AoFY-1" value="有监督训练" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="480" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vb5EdWWyYZ6hDgargNtk-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="vb5EdWWyYZ6hDgargNtk-8" target="vb5EdWWyYZ6hDgargNtk-11">
+        <mxCell id="0VZTM6ZU5YmMHWf4AoFY-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0VZTM6ZU5YmMHWf4AoFY-5" target="0VZTM6ZU5YmMHWf4AoFY-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vb5EdWWyYZ6hDgargNtk-8" value="无监督聚类" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="320" width="120" height="60" as="geometry" />
+        <mxCell id="0VZTM6ZU5YmMHWf4AoFY-5" value="阈值区间的选择" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="370" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="vb5EdWWyYZ6hDgargNtk-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.433;entryY=0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="vb5EdWWyYZ6hDgargNtk-5" target="vb5EdWWyYZ6hDgargNtk-7">
+        <mxCell id="0VZTM6ZU5YmMHWf4AoFY-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0VZTM6ZU5YmMHWf4AoFY-7" target="0VZTM6ZU5YmMHWf4AoFY-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="vb5EdWWyYZ6hDgargNtk-11" value="聚类结果" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="420" width="120" height="60" as="geometry" />
+        <mxCell id="0VZTM6ZU5YmMHWf4AoFY-7" value="选择相似度在0.3~0.4之间的数据进行训练" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="360" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="vb5EdWWyYZ6hDgargNtk-13" value="阈值区间的选择" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="180" y="420" width="120" height="60" as="geometry" />
+        <mxCell id="0VZTM6ZU5YmMHWf4AoFY-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0VZTM6ZU5YmMHWf4AoFY-15" target="vb5EdWWyYZ6hDgargNtk-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0VZTM6ZU5YmMHWf4AoFY-15" value="正确分组的人脸聚类数据" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="55" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0VZTM6ZU5YmMHWf4AoFY-17" value="人脸特征聚类训练集" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="490" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0VZTM6ZU5YmMHWf4AoFY-18" value="保存模型" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="585" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
