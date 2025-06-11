@@ -39,7 +39,7 @@
         <mxCell id="0VZTM6ZU5YmMHWf4AoFY-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="0VZTM6ZU5YmMHWf4AoFY-7" target="0VZTM6ZU5YmMHWf4AoFY-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="0VZTM6ZU5YmMHWf4AoFY-7" value="选择相似度在0.3~0.4之间的数据进行训练" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
+        <mxCell id="0VZTM6ZU5YmMHWf4AoFY-7" value="选择相似度在[&lt;span style=&quot;color: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 13px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;δ,&lt;/span&gt;&lt;span style=&quot;color: rgb(51, 51, 51); font-family: Arial, sans-serif; font-size: 13px; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;θ&lt;/span&gt;]之间的数据进行训练" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
           <mxGeometry x="140" y="360" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="0VZTM6ZU5YmMHWf4AoFY-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="0VZTM6ZU5YmMHWf4AoFY-15" target="vb5EdWWyYZ6hDgargNtk-1" edge="1">
